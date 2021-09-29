@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun With Triangles</title>
+    <title>Hypotenuse of a Triangle</title>
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
@@ -26,24 +28,21 @@
         </ul>
     </nav>
 
-    <section class="section1">
-        <div class="heading">
-            <h1>Enter the 3 angles below to see if a triangle is formed
-            </h1>
-        </div>
 
-        <label for="first-angle"> Angle 1 </label>
-        <input id="first-angle" type="number">
+    <section>
+        <h1>
+            Enter the length of 2 sides of a right angled triangle to find out the length of it's hypotenuse.
+        </h1>
 
-        <label for="second-angle"> Angle 2 </label>
-        <input id="second-angle" type="number">
+        <label for="angle-one"> Length of Base in cm</label>
+        <input id="angle-one" type="number">
 
-        <label for="third-angle"> Angle 3 </label>
-        <input id="third-angle" type="number">
+        <label for="angle-two"> Length of Height in cm</label>
+        <input id="angle-two" type="number">
 
-        <button id="submit-button">Click to check</button>
+        <button id="submit-button">Calculate the length of hypotenuse</button>
 
-        <h2 id="output-text"></h2>
+        <div id="output-text"></div>
     </section>
     <footer>
         <p>You can find me here</p>
@@ -65,8 +64,7 @@
             </li>
         </ul>
     </footer>
-    <script src="/js/istriangle.js" type="text/javascript"></script>
+    <script src="/js/hypotenuse.js" type="text/javascript"></script>
 </body>
-
 
 </html>
