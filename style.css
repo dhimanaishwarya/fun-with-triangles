@@ -19,6 +19,28 @@ body {
   text-align: center;
 }
 
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.nav-brand {
+  font-weight: bold;
+}
+
+.list-non-bullet.nav-pills {
+  text-align: right;
+}
+
+.link {
+  padding: 3rem;
+}
+
+.link.link-active {
+  font-weight: bold;
+}
+
 h1 {
   color: var(--primary-color);
   /* font-size: xx-large; */
