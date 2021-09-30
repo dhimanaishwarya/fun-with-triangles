@@ -33,9 +33,9 @@ body {
   text-align: right;
 }
 
-.link {
+/* .link {
   padding: 3rem;
-}
+} */
 
 .link.link-active {
   font-weight: bold;
@@ -122,21 +122,22 @@ input {
 footer {
   background-color: var(--primary-color);
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 1px;
 }
 
 footer p {
   margin: 1rem;
-  font-size: large;
+  font-size: medium;
   text-align: center;
 }
 
-.footer-list {
+/* .footer-list {
   margin: 2rem;
-}
+} */
 
 a,
 img,

@@ -33,14 +33,14 @@ function isTriangle(angle1, angle2, angle3) {
     if (calculateSumOfAngles(angle1, angle2, angle3)) {
 
         console.log("triangle.");
-        showOutputText("These angles form a triangle.");
-        outputText.style.width = "40%";
+        showOutputText("These angles form a triangle.😀");
+
 
     } else {
 
         console.log("no triangle.");
         showOutputText("These angles do not form a triangle. ");
-        outputText.style.width = "40%";
+
 
     }
 
