@@ -60,6 +60,5 @@ function showOutputText(msg) {
 
     outputText.style.display = "block";
     outputText.innerText = msg;
-    outputText.style.width = "60%";
 
 }

@@ -41,6 +41,5 @@ function showMessage(msg) {
 
     outputText.style.display = "block";
     outputText.innerText = msg;
-    outputText.style.color = "red";
 
 }
